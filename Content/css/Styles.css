@@ -1,0 +1,662 @@
+﻿@font-face
+{
+    font-family: "GE SS Two Medium";
+    src: url("../fonts/GE_SS_Two_Medium.eot?") format("eot"), url("../fonts/GE_SS_Two_Medium.woff") format("woff"), url("../fonts/GE_SS_Two_Medium.ttf") format("truetype"), url("../fonts/GE_SS_Two_Medium.svg#GESSTwoMedium-Medium") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: "Hacen Saudi Arabia" !important;
+    src: url("../font/Hacen_Saudi_Arabia.eot?") format("eot") !important;
+    src: url("../font/Hacen_Saudi_Arabia.woff") format("woff") !important;
+    src: url("../font/Hacen_Saudi_Arabia.ttf") format("truetype") !important;
+    src: url("../font/Hacen_Saudi_Arabia.svg#HacenSaudiArabia") format("svg") !important;
+}
+
+body
+{
+    font-family: "GE SS Two Medium";
+    font-size: 14px;
+    text-align: center;
+}
+
+body
+{
+    background: white;
+}
+
+.no-padding
+{
+    padding: 0px !important;
+}
+.padding
+{
+    padding: 0px 15px 10px 15px;
+}
+
+.Custcontainer
+{
+    width: 100%;
+   margin-right: auto;
+    margin-left: auto;
+}
+
+
+.Fheader
+{
+    
+    background-color: #a3c2c2;
+    display: inline-block;
+    min-height: 180px;
+    padding:50px;
+    height: 100%; 
+    width:100%; 
+    background-color: #a3c2c2; 
+    background : -webkit-gradient(linear, left top, left bottom, from(#a3c2c2), to(#f0f5f5)); 
+    background : -moz-linear-gradient(top, #a3c2c2, #f0f5f5); 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a3c2c2', endColorstr='#f0f5f5');
+    text-align:center;
+    color:White;
+    margin-top:50px;        
+}
+.FheaderBG
+{
+    
+    width: 100%;
+    min-height: 190px;
+    background-repeat: repeat; /* background-size: 100%; */
+    padding: 0px;
+    margin-left: 0px;
+      
+}
+
+.LogoPic
+{
+    height: 154px;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.LogosCurve
+{
+    padding: 25px;
+}
+
+
+.LogosCurve div:first-child a
+{
+    color: #fff;
+    float: left;
+    height: 31px;
+    border-right: 1px solid #fff;
+}
+
+.LogosCurve div:first-child a:last-child
+{
+    border-right: none;
+}
+.LogosCurve a:hover, .LogosCurve a:hover span
+{
+    color: #032B43;
+}
+.LogosCurve span
+{
+    padding: 5px;
+    height: 31px;
+    display: inline-block;
+}
+
+
+.LogosCurve .fa
+{
+    color: #fff;
+    padding: 6px 10px;
+    height: 31px;
+    float: left;
+    font-size: 18px;
+}
+
+.LogosCurveItem
+{
+    background-image: url(../img/Header2.png);
+    background-repeat: no-repeat;
+    height: 177px;
+    margin-bottom: -23px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 55px;
+    z-index: 1;
+    background-position: center 110px;
+    text-align: center;
+    min-width: 103px;
+    float: left;
+    max-width: 125px;
+}
+
+.LogosCurveItem:last-child img
+{
+    margin-top: 35px;
+    left: 20px;
+    position: relative;
+}
+
+.LogosCurveItem:last-child
+{
+    background-position: left 110px;
+    text-align: left;
+    max-width: 175px;
+}
+.LogosCurve img
+{
+    height: 73px;
+    padding: 12px 10px 0px;
+}
+.Sheader
+{
+    background-image: #a3c2c2;
+    height: 170px;
+    background-repeat: repeat-y;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px !important;
+}
+
+.CustText
+{
+    border: none;
+    border-radius: 25px;
+    height: 30px;
+    width: 50%;
+    color: #0079ac;
+    text-align: center;
+    font-weight: bold;
+    background: white;
+    outline: none;
+    cursor: auto;
+}
+
+.Custbtn
+{
+    border: none;
+    border-radius: 25px;
+    height: 30px;
+    width: 50%;
+    color: #0079ac;
+    text-align: center;
+    font-weight: bold;
+    background: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.Sheader div
+{
+    padding-top: 20px;
+}
+
+.Sheader img
+{
+    width: 30px;
+    margin-right: -24px;
+    z-index: 1;
+    position: relative;
+}
+
+.menu
+{
+    min-height: 40px;
+    background-color: #fff;
+    text-align: right;
+}
+
+.menu span
+{
+    display: inline-block;
+    height: 40px;
+    min-width: 150px;
+    width: 19%;
+    text-align: center;
+    font-weight: bold;
+    float: right;
+}
+
+.menu span a
+{
+    height: 40px;
+    width: 100%;
+    display: inline-block;
+    padding-top: 10px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background: radial-gradient(#455b69, #0f5580);
+}
+.menu span a:hover
+{
+    background: #fff;
+    color: #032B43;
+    text-decoration: none;
+}
+
+.menu span:first-child
+{
+    margin-right: 0px;
+    font-size: 20px;
+    width: 5%;
+    min-width: 25px;
+}
+
+.menu span:last-child, .menu span:last-child a
+{
+    border-left: none;
+}
+
+.footerSep
+{
+    background-color: #a3c2c2;
+    width: 100%;
+    height:100%;
+    display: inline-block;
+    margin-bottom: -50px;
+}
+
+.footerLinks
+{
+    min-height: 200px;
+    background-image: url(../img/Footer1.png);
+    background-size: cover;
+    color:#00b3b3;
+}
+
+.footerCopyrights
+{
+    min-height: 46px;
+    background-color: #a3c2c2;
+    background-size: cover;
+}
+
+.footerCopyrights div
+{
+    font-family: "Hacen Saudi Arabia" !important;
+    text-align: right;
+    padding-top: 0px;
+    color: #a3c2c2;
+    font-size: 13px;
+}
+
+.Title
+{
+    background: #e5e5e5;
+    font-size: 18px;
+    font-family: "GE SS Two Medium";
+    padding: 15px;
+    color: #0c8e36;
+    
+}
+
+.subTitle
+{
+    font-size: 18px;
+    font-family: "GE SS Two Medium";
+    padding: 15px;
+    color: #005594;
+    direction: rtl;
+}
+
+.Info_Title
+{
+    font-size: 18px;
+    font-family: "GE SS Two Medium";
+    padding: 15px;
+    color: #005594;
+    direction: rtl;
+}
+.Info_Green
+{
+    font-size: 14px;
+    font-family: "GE SS Two Medium";
+    padding: 15px;
+    color: Green;
+    direction: rtl;
+    font-weight: bold;
+}
+.Info_purple_9
+{
+    font-size: 14px;
+    font-family: "GE SS Two Medium";
+    padding: 15px;
+    color: purple;
+    direction: rtl;
+}
+
+.Info_Black_9
+{
+    font-size: 14px;
+    font-family: "GE SS Two Medium";
+    padding: 15px;
+    color: black;
+    direction: rtl;
+}
+.Info_group
+{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: -20px;
+}
+.Linkedcontent
+{
+    font-size: 15px;
+    font-family: "GE SS Two Medium";
+    padding: 0px;
+    min-height: 0px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    color: #660066;
+}
+.Containt
+{
+    background-image: url("../img/Texture.png");
+    padding: -80 px;
+    background-color: #fff;
+    min-height : 50px;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    overflow-y: auto;
+}
+.partners div
+{
+    text-align: center;
+    padding-top: 30px !important;
+}
+.partners img
+{
+    max-height: 70px;
+    max-width: 100%;
+}
+.partners div:first-child
+{
+    padding-top: 40px !important;
+}
+.partners div:last-child
+{
+    padding-top: 40px !important;
+}
+.partners div:nth-child(2)
+{
+    padding-top: 55px !important;
+    padding-left: 25px !important;
+}
+.ContactUs
+{
+    border-left: 2px outset #fff;
+}
+.footerSep div:last-child .ContactUs
+{
+    border-left: none;
+}
+.FooterTitle
+{
+    margin: 5px 0px 15px;
+    border-bottom: 1px solid #fff;
+    padding: 5px 10px;
+    width: 70%;
+    min-width: 150px;
+}
+.partners
+{
+    min-height: 150px;
+    overflow-y: hidden;
+    border-left: 2px outset #fff;
+}
+.ContactUs > div
+{
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+.ContactUs .fa
+{
+    width: 15px;
+    display: inline-block;
+}
+.form-group
+{
+    margin-bottom: 1rem;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.form-group:nth-child(2n)
+{
+    background-color: #eee;
+}
+
+.control-label
+{
+    text-align: right !important;
+}
+
+.form_div
+{
+    border: 3px solid #4d4949;
+}
+
+
+
+
+.InputLogin
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+
+.loginbtn
+{
+    background-color: #4CAF50 !important;
+    color: white !important;
+    padding: 14px 20px !important;
+    margin: 8px 0 !important;
+    border: none !important;
+    cursor: pointer !important;
+    width: 100% !important;
+}
+
+
+
+
+.loginbtn:hover
+{
+    opacity: 0.8 !important;
+}
+
+
+
+
+.imgcontainer
+{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+
+
+
+img.avatar
+{
+    width: 15%;
+    border-radius: 50%;
+}
+
+
+
+
+.container
+{
+    padding: 0px;
+}
+
+
+
+
+span.psw
+{
+    float: right;
+    padding-top: 0px;
+}
+
+
+
+
+@media screen and (max-width: 300px)
+{
+
+    span.psw
+    {
+        display: block;
+        float: none;
+    }
+
+}
+
+.PageTitle
+{
+    font-size: 24px;
+    padding: 25px 15px;
+    color: #fff;
+    background: linear-gradient( to right,#fff, #0079ac);
+}
+
+.footerMrorLogo
+{
+    background-color: #a3c2c2;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 120px;
+    margin: -15px auto 0px;
+    padding: 29px 0px 25px 0px;
+    text-align: center;
+    color: #a3c2c2;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.footerMrorLogo img
+{
+    width: 78px;
+}
+
+.partners
+{
+    border-left: none;
+}
+#demo img
+{
+    width: 100%;
+}
+.ms-signInLink
+{
+    display: none !important;
+}
+.HomeBody h4
+{
+    font-family: "GE SS Two Medium";
+    font-size: 14px !important;
+}
+.HomeBody
+{
+    min-height: 100px;
+    padding: 0 px;
+    margin:0px;
+}
+
+.Vision
+{
+    text-align: left;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.C_chart
+{
+    background: conic-gradient($red 4%,        $gray 0 8%,        $blue 0 17%,       $yellow 0 48%,       $purple 0 54%,       $orange 0     );
+    border-radius: 50%;
+    width: 50%;
+    height: 0;
+    padding-top: 50%;
+    float: left;
+    padding-right: 20px;
+}
+.dropdown-content a
+{
+    padding: 12px 18px;
+    text-decoration: none;
+    text-align: left;
+    background: white !important;
+    color: #245878 !important;
+}
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+.dropdown-content a:hover
+{
+    background: radial-gradient(#455b69, #0f5580) !important;
+    color: #fff !important;
+}
+@media only screen and (max-width: 790px)
+{
+
+    .menu span
+    {
+        width: 25% !important;
+        min-width: auto !important;
+    }
+
+    .ContactUs
+    {
+        border-left: none;
+    }
+}
+@media only screen and (max-width: 550px)
+{
+    .LogosCurveItem
+    {
+        min-width: auto;
+    }
+
+    .LogosCurveItem :last-child img
+    {
+        width: 150px;
+    }
+
+    .menu span
+    {
+        width: 50% !important;
+        min-width: auto !important;
+    }
+    .Vision
+    {
+        text-align: center;
+    }
+}

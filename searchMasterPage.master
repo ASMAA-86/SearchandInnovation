@@ -1,0 +1,80 @@
+﻿<%@ Master Language="VB" CodeFile="searchMasterPage.master.vb" Inherits="searchMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>وحدة البحث والابتكار</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="content/css/bootstrap_3.3.7.min.css" rel="stylesheet" />
+    <link href="content/css/bootstrap-rtl.min.css" rel="stylesheet" />
+    <link href="content/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="content/css/Styles.css" rel="stylesheet" />
+   
+    <script src="content/js/jquery.min.js" type="text/javascript">//<![CDATA[
+         //]]></script>
+    <script type="text/javascript" src="content/js/bootstrap.min.js">//<![CDATA[
+        //]]></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('.menu span').find('a').each(function () { $(this).attr('href', $(this).attr('href').toLowerCase()) })
+
+            var currentPageName = document.location.href.toLowerCase().match(/[^\/]+$/)[0];
+            $('.menu span').find('a[href*="' + currentPageName + '"].parent-tab').attr('style', 'background:white !important; color:black;');
+
+        });
+    </script>
+    <style type="text/css">
+        td, th
+        {
+            padding: 6px;
+        }
+        
+        .footer
+        {
+           
+            border-top-style: groove;
+            background-color: #a3c2c2;
+            background-attachment:fixed;
+            padding: 0px;
+            margin-left: 0px;
+             margin-bottom: 0px;
+            color: white;
+            text-align: center;
+            bottom:0;
+           
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="s4-workspace">
+            <div id="s4-bodyContainer">
+                <div class="Custcontainer">
+                    <div class="header">
+                        <div class="Fheader no-padding col-md-12 col-sm-12 col-xs-12">
+                           <h1>نموذج تسجيل بحث/ابتكار</h1>
+                        </div>
+                    </div>
+                    <div class="HomeBody no-padding col-md-12 col-sm-12 col-xs-12 Containt">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>
+            جامعة الأميرة نورة بنت عبدالرحمن © 2018
+            <br />
+            جميع الحقوق محفوظة للإدارة العامة لتقنية المعلومات و الاتصالات بجامعة الأميرة نورة
+            بنت عبدالرحمن
+        </p>
+    </div>
+</body>
+</html>
